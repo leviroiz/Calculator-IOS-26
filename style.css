@@ -2,3 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    font-family: 'apple';
+}
+
+@font-face {
+    font-family: 'apple';
+    src: url(/fonts/SF-Pro-Display-Regular.otf);
+}
