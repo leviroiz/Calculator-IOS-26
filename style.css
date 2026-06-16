@@ -11,6 +11,14 @@ body{
     height: 100vh;
 }
 
+.calculator{
+    display: flex;
+    max-width: 328px;
+    width: 100%;
+}
+
+
+
 @font-face {
     font-family: 'apple';
     src: url(/fonts/SF-Pro-Display-Regular.otf);
