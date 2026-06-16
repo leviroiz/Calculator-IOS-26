@@ -33,6 +33,13 @@ body{
     font-size: 60px;
 }
 
+.box-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    aspect-ratio: 1;
+}
+
 @font-face {
     font-family: 'apple';
     src: url(/fonts/SF-Pro-Display-Regular.otf);
