@@ -52,13 +52,14 @@ body{
     font-size: 32px;
     aspect-ratio: 1;
     color: white;
+    transition-duration: 0.2s;
 }
 
 .btn-func{
     background-color: rgb(100, 100, 100);
 }
 
-.btn-func:active{
+.btn-func.pressed{
     background-color: rgb(134, 134, 134);
     transform: scale(1.2);
 }
@@ -67,7 +68,7 @@ body{
     background-color: rgb(255, 153, 0);
 }
 
-.btn-op:active{
+.btn-op.pressed{
     background-color: rgb(255, 181, 69);
     transform: scale(1.2);
 }
@@ -76,7 +77,7 @@ body{
     background-color: rgb(65, 65, 65);
 }
 
-.btn-num:active {
+.btn-num.pressed {
     background-color: rgb(100, 100, 100);
     transform: scale(1.2);
 }
