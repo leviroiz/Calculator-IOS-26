@@ -58,12 +58,27 @@ body{
     background-color: rgb(100, 100, 100);
 }
 
+.btn-func:active{
+    background-color: rgb(134, 134, 134);
+    transform: scale(1.2);
+}
+
 .btn-op{
     background-color: rgb(255, 153, 0);
 }
 
+.btn-op:active{
+    background-color: rgb(255, 181, 69);
+    transform: scale(1.2);
+}
+
 .btn-num{
     background-color: rgb(65, 65, 65);
+}
+
+.btn-num:active {
+    background-color: rgb(100, 100, 100);
+    transform: scale(1.2);
 }
 
 @font-face {
