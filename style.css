@@ -48,7 +48,18 @@ body{
     font-size: 32px;
     aspect-ratio: 1;
     color: white;
-    background-color: gray;
+}
+
+.btn-func{
+    background-color: rgb(100, 100, 100);
+}
+
+.btn-op{
+    background-color: rgb(255, 153, 0);
+}
+
+.btn-num{
+    background-color: rgb(65, 65, 65);
 }
 
 @font-face {
