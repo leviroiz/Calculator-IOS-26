@@ -25,13 +25,13 @@ body{
 
 .expr{
     font-size: 19px;
-    color: gray;
-    padding: 0px 20px 0px;
+    color: rgb(128, 128, 128);
+    padding: 0px 0px 0px;
 }
 
 .result{
-    padding: 0px 10px 20px;
-    font-size: 60px;
+    padding: 0px 0px 10px;
+    font-size: 55px;
     color: white;
 }
 
